@@ -25,6 +25,8 @@ ThreeJS est une libraire javascript permettant la création de scène 3D depuis 
 
 ## Que j'aurai voulu faire
 - Intercation avec des éléments du décor 
+	- Prise ethernet a plug in/out
+	- Ecran ordinateur dynmaique
 - Animer un modèle soit-même (en utilisant blender)
 
 # Exemples de code
