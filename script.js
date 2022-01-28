@@ -50,6 +50,7 @@ loader.load('assets/Soldier.glb', function (gltf){
 	});
 	scene.add(model);
 
+	// Get all animation that are not the default T-pose and stock them in an array
 	const gltfAnimations = gltf.animations;
     const mixer = new THREE.AnimationMixer(model);
     const animationsMap = new Map()
@@ -58,7 +59,6 @@ loader.load('assets/Soldier.glb', function (gltf){
     })
 
     characterControls = new CharacterControls(model,  mixer, animationsMap, orbitControls, camera,  'Idle')
-	console.log(characterControls)
 })
 
 createRoom();

@@ -51,7 +51,6 @@ loader.load('assets/Soldier.glb', function (gltf){
     })
 
     characterControls = new CharacterControls(model,  mixer, animationsMap, orbitControls, camera,  'Idle')
-	console.log(characterControls)
 })
 ```
 
