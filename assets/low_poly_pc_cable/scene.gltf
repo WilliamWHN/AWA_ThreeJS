@@ -1,0 +1,435 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        0.19425815343856812,
+        -0.5,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 240,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        1,
+        0.99340695142745972,
+        0.99340695142745972
+      ],
+      "min": [
+        0.11464165896177292,
+        -0.99340695142745972,
+        -0.99340695142745972
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.99336671829223633,
+        0.99999970197677612,
+        0.12648150324821472,
+        1
+      ],
+      "min": [
+        -0.99337035417556763,
+        0.11372099816799164,
+        -0.12605735659599304,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.43403178453445435,
+        0.93617618083953857
+      ],
+      "min": [
+        0.14615345001220703,
+        0.76546549797058105
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 30,
+      "max": [
+        19
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 480,
+      "componentType": 5126,
+      "count": 1858,
+      "max": [
+        -0.10321637988090515,
+        2.1385979652404785,
+        4.3822422027587891
+      ],
+      "min": [
+        -2.9148960113525391,
+        -0.0047964677214622498,
+        1.7499217987060547
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22776,
+      "componentType": 5126,
+      "count": 1858,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -0.99939572811126709,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 320,
+      "componentType": 5126,
+      "count": 1858,
+      "max": [
+        0.99998331069946289,
+        0.99999958276748657,
+        0.99999958276748657,
+        1
+      ],
+      "min": [
+        -0.99987620115280151,
+        -0.99999958276748657,
+        -0.9977259635925293,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 160,
+      "componentType": 5126,
+      "count": 1858,
+      "max": [
+        0.98662382364273071,
+        0.9953453540802002
+      ],
+      "min": [
+        0.016478121280670166,
+        0.0063624083995819092
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 120,
+      "componentType": 5125,
+      "count": 7830,
+      "max": [
+        1857
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Paul (https://sketchfab.com/nathan.d1563)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/low-poly-pc-cable-464d4da5b46842ed8cb37b7c50168a60",
+      "title": "Low poly PC Cable"
+    },
+    "generator": "Sketchfab-6.28.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 31440,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15024,
+      "byteOffset": 31440,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 45072,
+      "byteOffset": 46464,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30048,
+      "byteOffset": 91536,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 121584,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Maps_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Maps_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Maps_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "name": "Maps",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.1053734756097561,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.43464176829268292
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Conection_Maps_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Pc_cableMesh_Maps_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "PC-Cable.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        7
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5196706056594849,
+        0,
+        -3.0660820007324219,
+        1
+      ],
+      "name": "Cable"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.091717548668384552,
+        0,
+        0,
+        0,
+        0,
+        0.44387799501419067,
+        0,
+        0,
+        0,
+        0,
+        0.28238499164581299,
+        0,
+        -2.953941822052002,
+        2.1809573173522949,
+        3.933314323425293,
+        1
+      ],
+      "name": "Conection"
+    },
+    {
+      "mesh": 0,
+      "name": "Conection_Maps_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Pc_cableMesh"
+    },
+    {
+      "mesh": 1,
+      "name": "Pc_cableMesh_Maps_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
