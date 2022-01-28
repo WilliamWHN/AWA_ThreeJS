@@ -85,7 +85,7 @@ function animate(){
 }
 ``` 
 
-#Sources utilisée
+# Sources utilisée
 - https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 - https://www.youtube.com/watch?v=C3s0UHpwlf8
 - https://www.youtube.com/watch?v=t3lbOyH5eKo
